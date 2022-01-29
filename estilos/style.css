@@ -19,9 +19,9 @@
     grid-template-rows: repeat(5, 400px);
     grid-template-areas: 
     "nav1 main1"
-    "main2 main2"
-    "main3 main4"
-    "main4 main5"
+    "nav2 main2"
+    "nav3 main3"
+    "nav4 main4"
     "nav5 footer"
     ;
     grid-gap: 30px;
@@ -178,7 +178,9 @@
     align-items: center;
 }
 
-
+.nav {
+    grid-area: nav;
+}
 
 
 
