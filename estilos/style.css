@@ -44,31 +44,31 @@
     ;
 
 }
-
+.nav1:hover {filter: opacity(.5);}
 .nav1 {
     grid-area: nav1;
     display: flex;
     align-items: center;
 }
-
+.nav2:hover {filter: opacity(.5);}
 .nav2 {
     grid-area: nav2;
     display: flex;
     align-items: center;
 }
-
+.nav3:hover {filter: opacity(.5);}
 .nav3 {
     grid-area: nav3;
     display: flex;
     align-items: center;
 }
-
+.nav4:hover {filter: opacity(.5);}
 .nav4 {
     grid-area: nav4;
     display: flex;
     align-items: center;
 }
-
+.nav5:hover {filter: opacity(.5);}
 .nav5 { 
     grid-area: nav5;
     display: flex;
@@ -99,12 +99,12 @@
     flex-direction: row;
     justify-content: space-around;
 }
-
+.eva:hover {filter: opacity(.5);}
 .eva {
     width: 500px;
     height: 200px;
 }
-
+.godz:hover {filter: opacity(.5);}
 .godz {
     width: 500px;
     height: 200px;
@@ -123,22 +123,22 @@
     justify-content: space-evenly;
     align-content: space-between;
 }
-
+.controller:hover {filter: opacity(.5);}
 .controller {
     width: 300px;
     height: 300px;
 }
-
+.keyboard:hover {filter: opacity(.5);}
 .keyboard {
     width: 300px;
     height: 300px;
 }
-
+.doom:hover {filter: opacity(.5);}
 .doom {
     width: 300px;
     height: 300px;
 }
-
+.metroyard:hover {filter: opacity(.5);}
 .metroyard {
     width: 300px;
     height: 300px;
