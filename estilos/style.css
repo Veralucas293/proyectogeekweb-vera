@@ -3,11 +3,7 @@
     padding: 0;
 }
 
-.imgnav { 
-    border-radius: 50%;
-    width: 100%;
-   /* height: 200px;*/
-}
+
 
 
 .bodyindex { 
@@ -15,14 +11,15 @@
     background-color: rgb(0, 0, 0);
     width: 100%;
     color: whitesmoke;
+    
     grid-template-columns: 300px 1fr;
-    grid-template-rows: repeat(5, 400px);
+    grid-template-rows: repeat(5, 1fr);
     grid-template-areas: 
     "nav1 main1"
-    "nav2 main2"
-    "nav3 main3"
-    "nav4 main4"
-    "nav5 footer"
+    "main2 main2"
+    "main3 main3"
+    "main4 main4"
+    "footer footer"
     ;
     grid-gap: 30px;
     
@@ -37,38 +34,38 @@
     grid-template-rows: repeat(5, 400px);
     grid-template-areas: 
     "nav1 mainst1"
-    "nav2 mainst2"
-    "nav3 mainst3"
-    "nav4 mainst4"
-    "nav5 footer"
+    "mainst2 mainst2"
+    "mainst3 mainst3"
+    "mainst4 mainst4"
+    "footer footer"
     ;
 
 }
-.nav1:hover {filter: opacity(.5);}
+
 .nav1 {
     grid-area: nav1;
     display: flex;
     align-items: center;
 }
-.nav2:hover {filter: opacity(.5);}
+
 .nav2 {
     grid-area: nav2;
     display: flex;
     align-items: center;
 }
-.nav3:hover {filter: opacity(.5);}
+
 .nav3 {
     grid-area: nav3;
     display: flex;
     align-items: center;
 }
-.nav4:hover {filter: opacity(.5);}
+
 .nav4 {
     grid-area: nav4;
     display: flex;
     align-items: center;
 }
-.nav5:hover {filter: opacity(.5);}
+
 .nav5 { 
     grid-area: nav5;
     display: flex;
@@ -99,12 +96,12 @@
     flex-direction: row;
     justify-content: space-around;
 }
-.eva:hover {filter: opacity(.5);}
+
 .eva {
     width: 500px;
     height: 200px;
 }
-.godz:hover {filter: opacity(.5);}
+
 .godz {
     width: 500px;
     height: 200px;
@@ -123,22 +120,22 @@
     justify-content: space-evenly;
     align-content: space-between;
 }
-.controller:hover {filter: opacity(.5);}
+
 .controller {
     width: 300px;
     height: 300px;
 }
-.keyboard:hover {filter: opacity(.5);}
+
 .keyboard {
     width: 300px;
     height: 300px;
 }
-.doom:hover {filter: opacity(.5);}
+
 .doom {
     width: 300px;
     height: 300px;
 }
-.metroyard:hover {filter: opacity(.5);}
+
 .metroyard {
     width: 300px;
     height: 300px;
@@ -178,8 +175,8 @@
     align-items: center;
 }
 
-.nav {
-    grid-area: nav;
+.dropdown {
+    grid-area: nav1;
 }
 
 
