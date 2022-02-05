@@ -9,6 +9,11 @@ body {
   color: whitesmoke;
 }
 
+.imgcl {
+  width: 300px;
+  height: 300px;
+}
+
 footer {
   grid-area: footer;
   display: -webkit-box;
