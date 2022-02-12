@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.imgcl {
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+}
+
 body {
   font: 100% open sans, sans serif;
   color: whitesmoke;
@@ -11,9 +17,31 @@ body {
   width: 100%;
 }
 
-.imgcl {
-  width: 300px;
+.noti1 {
+  width: 100%;
+  height: 370px;
+  background-color: #2b1a1a;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.noti2 {
+  width: 100%;
   height: 300px;
+  background-color: #292929;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+.noti3 {
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+  border-radius: 20px;
+  text-align: center;
+  margin: 5px;
 }
 
 footer {
