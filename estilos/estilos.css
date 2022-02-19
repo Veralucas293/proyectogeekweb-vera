@@ -17,33 +17,6 @@ body {
   width: 100%;
 }
 
-.noti1 {
-  width: 100%;
-  height: 370px;
-  background-color: #2b1a1a;
-  border-radius: 20px;
-  text-align: center;
-  margin: 5px;
-}
-
-.noti2 {
-  width: 100%;
-  height: 300px;
-  background-color: #292929;
-  border-radius: 20px;
-  text-align: center;
-  margin: 5px;
-}
-
-.noti3 {
-  width: 100%;
-  height: 150px;
-  background-color: #333333;
-  border-radius: 20px;
-  text-align: center;
-  margin: 5px;
-}
-
 footer {
   grid-area: footer;
   display: -webkit-box;
