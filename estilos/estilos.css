@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-}
-
-.imgcl {
-  width: 500px;
-  height: 500px;
-  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -15,6 +9,262 @@ body {
   color: whitesmoke;
   background-color: black;
   width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img.top {
+  border-radius: 50%;
+  width: auto;
+  -webkit-filter: drop-shadow(20px 10px 10px grey);
+          filter: drop-shadow(20px 10px 10px grey);
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #000000;
+  color: whitesmoke;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+.menu li:hover {
+  background-color: #363636;
+}
+
+.menu a {
+  color: grey;
+}
+
+.menu a:hover {
+  color: whitesmoke;
+}
+
+.intro {
+  text-align: center;
+}
+
+.footer {
+  background-color: #000000;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.social-media ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media ul li {
+  list-style-type: none;
+  margin: 0 15px;
+}
+
+.social-media ul li .fab {
+  font-size: 30px;
+  line-height: 60px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: whitesmoke;
+}
+
+.social-media ul li .fa-solid {
+  font-size: 30px;
+  line-height: 60px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  color: whitesmoke;
+}
+
+.social-media ul li a {
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  background-color: #000;
+  text-align: center;
+  -webkit-box-shadow: 0 5px 4px rgba(153, 181, 145, 0.3);
+          box-shadow: 0 5px 4px rgba(153, 181, 145, 0.3);
+}
+
+.social-media ul li .fab:hover {
+  color: whitesmoke;
+}
+
+.social-media ul li a:hover {
+  -webkit-transform: translate(0, -15%);
+          transform: translate(0, -15%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.social-media ul li:nth-child(1) a:hover {
+  background-color: #3b5998;
+}
+
+.social-media ul li:nth-child(2) a:hover {
+  background-color: #e4405f;
+}
+
+.social-media ul li:nth-child(3) a:hover {
+  background-color: #ff0000;
+}
+
+.social-media ul li:nth-child(4) a:hover {
+  background-color: #1da1f2;
+}
+
+.social-media ul li:nth-child(5) a:hover {
+  background-color: #7289DA;
+}
+
+.social-media ul li:nth-child(6) a:hover {
+  background-color: #4b4b4b;
+}
+
+img.reco {
+  width: 400px;
+  height: 250px;
+}
+
+img {
+  height: 500px;
 }
 
 footer {
